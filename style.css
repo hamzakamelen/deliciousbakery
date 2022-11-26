@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR DESIGN  */
+.logo {
+    margin-left: 37%;
+}
+
+nav {
+    width: 100% !important;
+    border-bottom: 2px solid black;
+    background: rgb(253, 253, 253) !important;
+}
+
+.navbarslists {
+    margin-left: 25%;
+}
+
+.navbarslists li {
+    font-size: 1.5em;
+}
+
+.h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    color: #333333 !important;
+    font-size: 46px !important;
+    margin-left: -0.2em;
+}
+
+ul li a {
+    text-decoration: none !important;
+    color: #3c3c3c !important;
+}
+
+ul li a:hover {
+    color: green !important;
+    text-decoration: underline !important;
+}
+
+/* NAVBAR DESIGN  */
+
+/* FIRST LANDING SIDE  */
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-left: 40%;
+    transition: all 200ms ease;
+    margin-top: 13%;
+}
+
+.firstlandingimage {
+    width: 80%;
+    height: 90vh;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/sugaro3n33v/homeCombined-mp80rz1blMcaBReG.png");
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 5% !important;
+    margin-left: 20% !important;
+}
+
+.para {
+    margin-left: -42%;
+    margin-top: 24%;
+    font-style: italic;
+}
+
+.particletext {
+    position: relative;
+}
+
+.emoji2:hover {
+    transform: rotate(0.25turn);
+}
+
+/* FIRST LANDING SIDE  */
+
+/* Second SIDE  */
+.Ssection {
+    margin-left: -5% !important;
+    display: flex;
+    background-color: white;
+}
+
+.Ssection img {
+    margin-left: 82%;
+    margin-top: -27%;
+    background-color: white;
+}
+
+.seconddiv {
+    background-color: white;
+    width: 100%;
+    margin-top: 3%;
+}
+
+/* Second SIDE  */
+
+/* THIRD SIDE  */
+
+.thirdsection {
+    width: 100%;
+    margin-left: -2% !important;
+}
+
+.third {
+    margin-top: 15%;
+}
+
+.thirdsec {
+    margin-left: 78%;
+    margin-top: -20%;
+}
+
+/* THIRD SIDE  */
+/* FOURTH SIDE  */
+.fourthsection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: bisque;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.menus {
+    margin-top: 10%;
+}
+
+.pinecake {
+    margin-left: 90%;
+    margin-top: -39%;
+}
+
+.frcake {
+    margin-left: -130%;
+    margin-top: -30%;
+}
+
+.crcake {
+    margin-left: 90%;
+    margin-top: -30%;
+}
+
+.price {
+    font-size: 25px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.cakehead {
+    text-decoration: solid;
+    color: black;
+}
+
+.orcake {
+    margin-top: -37%;
+}
+
+.facake {
+    margin-top: -35%;
+}
+
+/* FOURTH SIDE  */
+
+/* footer */
+.footer a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer a:hover {
+    color: burlywood !important;
+}
+
+/* footer */
+/* RESPONSIVE .....    */
+
+@media (max-width: 1276px) {
+    .navbarslists {
+        margin-left: 20%;
+    }
+
+    .para {
+        margin-left: -45%;
+        margin-top: 26%;
+        font-style: italic;
+    }
+}
+
+@media (max-width: 1199px) {
+    .heading {
+        font-size: 65px;
+        margin-left: 35%;
+    }
+
+    .para {
+        margin-left: -45%;
+        margin-top: 26%;
+    }
+
+    .firstlandingimage {
+        margin-left: 18% !important;
+    }
+
+    .crcake {
+        margin-left: 80%;
+        margin-top: -30%;
+    }
+
+    .pinecake {
+        margin-left: 80%;
+        margin-top: -39%;
+    }
+}
+
+@media (max-width: 991px) {
+    .h1 {
+        margin-left: -20%;
+    }
+
+    .logo {
+        margin-left: 25%;
+    }
+
+    .heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        margin-left: 37%;
+        transition: all 200ms ease;
+        margin-top: 13%;
+    }
+    
+    .firstlandingimage {
+        width: 100%;
+        height: 90vh;
+        background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/sugaro3n33v/homeCombined-mp80rz1blMcaBReG.png");
+        background-repeat: no-repeat;
+        display: flex;
+        margin-top: 2% !important;
+        margin-left: 1% !important;
+    }
+    
+    .para {
+        margin-left: -52%;
+        margin-top: 27%;
+        font-style: italic;
+        font-size: smaller;
+    }
+    .emoji {
+        font-size: 50px;
+    }
+    .frcake {
+        margin-left: -108%;
+        margin-top: -30%;
+    }
+
+    /* Second SIDE  */
+    .Ssection {
+        margin-left: -30% !important;
+        display: flex;
+        background-color: white;
+    }
+
+    .Ssection img {
+        margin-left: 80%;
+        height: 50% !important;
+        margin-top: -25%;
+        background-color: white;
+    }
+    .seconddiv  h1{
+        font-size: 30px !important;
+    }
+    .seconddiv {
+        background-color: white;
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    /* Second SIDE  */
+    /* THIRD SIDE  */
+    
+    .thirdsection {
+        width: 100%;
+        margin-left: -10% !important;
+    }
+
+    .third {
+    margin-top: -5%;
+}
+
+.thirdsec {
+    margin-left: 78%;
+    margin-top: -28%;
+    height: 67% !important;
+}
+/* THIRD SIDE  */
+}
+@media (max-width: 900px) {
+    .heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        margin-left: 43%;
+        transition: all 200ms ease;
+        margin-top: 13%;
+    }
+    
+    .firstlandingimage {
+        width: 100%;
+        height: 90vh;
+        background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/sugaro3n33v/homeCombined-mp80rz1blMcaBReG.png");
+        background-repeat: no-repeat;
+        display: flex;
+        margin-top: 2% !important;
+        margin-left: 1% !important;
+    }
+    
+    .para {
+        /* margin-left: -52%; */
+        margin-top: 26%;
+        font-style: italic;
+        /* display: none; */
+    }
+    .emoji {
+        font-size: 50px;
+    }
+    .mtball{
+        margin-left: -92%;
+        height: 150px !important;
+    }
+    .grsand{
+        height: 180px !important;
+        margin-left: -95%;
+
+    }
+    .rside{
+        height: 180px !important;
+        margin-left: 75%;
+    }
+    .qeemasam{
+        height: 190px !important;
+        margin-left: -92%;
+    }
+    .Ssection {
+        margin-left: -20% !important;
+        display: flex;
+        background-color: white;
+    }
+    
+    .Ssection img {
+        margin-left: 70%;
+        height: 50% !important;
+        margin-top: -25%;
+        background-color: white;
+    }
+    .seconddiv  h1{
+        font-size: 25px !important;
+    }
+     /* THIRD SIDE  */
+     
+     .thirdsection {
+        width: 100%;
+        margin-left: -8% !important;
+    }
+
+    .third {
+        margin-top: -5%;
+}
+
+.thirdsec {
+    margin-left: 78%;
+    margin-top: -28%;
+    height: 67% !important;
+}
+/* THIRD SIDE  */
+}
+@media (max-width: 800px) {
+    .crcake {
+        height: 110px !important;
+        margin-left: 80%;
+    }
+    .rside{
+        height: 100px !important;
+    }
+    .frcake{
+        margin-left: -85%;
+    }
+
+    .Ssection {
+        margin-left: -10% !important;
+        display: flex;
+        background-color: white;
+    }
+    
+    .Ssection img {
+        margin-left: 70%;
+        height: 40% !important;
+        margin-top: -25%;
+        background-color: white;
+    }
+    .seconddiv  h1{
+        font-size: 25px !important;
+    }
+     /* THIRD SIDE  */
+    
+     .thirdsection {
+        width: 100%;
+        margin-left: -5% !important;
+    }
+
+    .third {
+    margin-top: -5%;
+}
+
+.thirdsec {
+    margin-left: 70%;
+    margin-top: -28%;
+    height: 67% !important;
+}
+/* THIRD SIDE  */
+#menu img{
+    height: 160px !important;
+}
+.mtball{
+    margin-left: -92%;
+    height: 100px !important;
+}
+}
+@media (max-width: 700px) {
+    .heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 60px;
+        margin-left: 35%;
+        transition: all 200ms ease;
+        margin-top: 13%;
+    }
+    
+    .firstlandingimage {
+        width: 120%;
+        height: 93vh;
+        background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/sugaro3n33v/homeCombined-mp80rz1blMcaBReG.png");
+        background-repeat: no-repeat;
+        display: flex;
+        margin-top: 2% !important;
+        margin-left: 1% !important;
+    }
+    
+    .para {
+        /* margin-left: -52%; */
+        margin-top: 26%;
+        font-style: italic;
+        /* display: none; */
+    }
+    .emoji {
+        font-size: 50px;
+    }
+    .leftitems{
+        margin-left: 30%;
+    }
+    .frcake{
+        margin-left: -150%;
+        margin-top: -45%;
+    }
+    .rightside{
+        margin-right: 45%;
+    }
+    .rightside img{
+        margin-left: 110%;
+        margin-top: -55% !important;
+    }
+    .Ssection {
+        margin-left: -25% !important;
+        font-size: small;
+        display: flex;
+        background-color: white;
+    }
+    
+    .Ssection img {
+        margin-left: 73%;
+        height: 40% !important;
+        margin-top: -40%;
+        background-color: white;
+    }
+    .seconddiv  h1{
+        font-size: 20px !important;
+    }
+     /* THIRD SIDE  */
+    
+     .thirdsection {
+        width: 100%;
+        margin-left: -10% !important;
+        font-size: small;
+    }
+
+    .third {
+    margin-top: -5%;
+}
+
+.thirdsec {
+    margin-left: 75%;
+    margin-top: -32%;
+    height: 50% !important;
+}
+/* THIRD SIDE  */
+
+}
+@media (max-width: 600px) {
+    .leftitems{
+        font-size: small;
+        
+        margin-left: 35%;
+    }
+    .frcake{
+
+        margin-left: -150%;
+        margin-top: -45%;
+    }
+    .rightside{
+        font-size: small;
+        margin-right: 40%;
+    }
+    .rightside img{
+        margin-left: 100%;
+        margin-top: -55% !important;
+    }
+    .logo{
+        margin-left: 20%;
+    }
+    .Ssection {
+        margin-left: -10% !important;
+        font-size: small;
+        display: flex;
+        background-color: white;
+    }
+    
+    .Ssection img {
+        margin-left: 70%;
+        height: 35% !important;
+        margin-top: -40%;
+        background-color: white;
+    }
+    .seconddiv  h1{
+        font-size: 20px !important;
+    }
+     /* THIRD SIDE  */
+    
+     .thirdsection {
+        width: 100%;
+        font-size: small;
+        margin-left: -5% !important;
+        font-size: small;
+    }
+
+    .third {
+    margin-top: -5%;
+}
+
+.thirdsec {
+    margin-left: 74%;
+    margin-top: -32%;
+    height: 40% !important;
+}
+}
+/* RESPONSIVE .....    */
